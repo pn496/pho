@@ -62,16 +62,16 @@ a:hover {
   width: 185px;
   margin-top: 20px;
   text-align: center;
-  color: #ffffff;
-  border: 3px solid #009cd3;
+  color: #000;
+  border: 3px solid rgb(251,206,131,1);
   border-radius: 5px;
-  background-color: #009cd3;
+  background-color: rgb(253,239,210,1);
 }
 
 .btn a:hover {
   text-decoration: none;
-  color: #009cd3;
-  background-color: #ffffff;
+  color: #000;
+  background-color: rgb(251,225,229,1);
 }
 
 a img:hover {
@@ -102,6 +102,7 @@ header {
 .logo {
   float: left;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .global-nav {
@@ -194,8 +195,8 @@ footer small {
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
+  backdrop-filter: brightness(.8);
 }
-
 #index #wrap {
   margin-top: 0;
   padding: 0;
