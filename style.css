@@ -475,7 +475,7 @@ ul.sns li a img {
 
   .global-nav {
     float: none;
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
   }
 
@@ -487,7 +487,6 @@ ul.sns li a img {
 
   #wrap {
     margin-top: 40px;
-    padding: 35px 0 0;
   }
 
   .content {
@@ -562,5 +561,33 @@ ul.sns li a img {
   }
   ul {
     margin-left: 1rem;
+  }
+  #index h1 {
+    font-size: 1.2rem;
+    line-height: 1;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #index p {
+    font-size: 14px;
+    text-align: center;
+  }
+  #index .content {
+    margin-top: 3rem;
+  }
+  #index {
+    background-image: url(images/bg-index-sp.jpg);
+    background-attachment: inherit;
+  }
+  .btn a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #index footer {
+    text-align: center;
+    width: auto;
+  }
+  #wrap .btn {
+    margin-top: 10rem;
   }
 }
