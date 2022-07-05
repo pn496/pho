@@ -186,6 +186,9 @@ footer small {
   font-size: 12px;
 }
 
+.sp_only {
+  display: none;
+}
 /* index.htmlへの指定
 ----------------------------------------*/
 
@@ -247,7 +250,7 @@ footer small {
   font-weight: bold;
 }
 
-#about .profile-image {
+#about .side {
   float: right;
 }
 
@@ -262,6 +265,13 @@ footer small {
   width: 660px;
   padding: 12px 0 12px 40px;
   border: 1px solid #cccccc;
+}
+
+#about .profile-clearfix {
+  float: left;
+}
+#about .main {
+  width: auto;
 }
 
 /* portfolio.htmlへの指定
@@ -429,8 +439,8 @@ ul.sns li a img {
 /* スマートフォン用CSS
 ----------------------------------------*/
 
-@media screen and (max-width:600px) {
-  /* 画面サイズが600px以下の場合に適用 */
+@media screen and (max-width:1000px) {
+  /* 画面サイズが1000px以下の場合に適用 */
 
   body {
     font-size: 3.5vw;
@@ -497,5 +507,57 @@ ul.sns li a img {
 
   #portfolio {
     background-image: url(images/bg-portfolio-sp.jpg);
+  }
+
+  #about {
+    background-image: url(images/bg-about-sp.jpg);
+  }
+
+  #about .profile-txt {
+    float: none;
+    width: auto;
+  }
+  #about .profile-image {
+    float: none;
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  #about .career td,
+  #about .career th {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+  #about .side {
+    float: none;
+  }
+  .main-center {
+    width: 100%;
+  }
+  .sp_only {
+    display: block;
+  }
+  .carrer table {
+    width: 100%;
+  }
+  table {
+    width: -webkit-fill-available;
+  }
+  #about section,#contact section {
+  margin: 2rem 0 0;
+  }
+  #contact .content {
+    width: auto;
+    margin: 0 5%;
+  }
+  #contact .access table {
+    margin: 1rem;
+  }
+  #contact .access iframe {
+    float: none;
+    width: fit-content;
+  }
+  ul {
+    margin-left: 1rem;
   }
 }
