@@ -442,6 +442,9 @@ ul.sns li a img {
 @media screen and (max-width:1000px) {
   /* 画面サイズが1000px以下の場合に適用 */
 
+.pc_only {
+  display: none;
+}
   body {
     font-size: 3.5vw;
   }
