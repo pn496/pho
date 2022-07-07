@@ -464,14 +464,13 @@ ul.sns li a img {
 
   header {
     width: auto;
-    margin: 0 5%;
+    margin: 0 5% 20px;
   }
 
   .logo {
     float: none;
-    margin-top: 60px;
+    margin: 25px 0 0 0;
     text-align: center;
-    zoom: 0.3;
   }
 
   .global-nav {
