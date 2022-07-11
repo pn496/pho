@@ -50,9 +50,12 @@
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico">
 <!-- Safari -->
 <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+<!-- jquery lightbox -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
+<link href="lightbox.css" rel="stylesheet">
 </head>
 <body id="photograph">
   
@@ -80,27 +83,29 @@
         <section id="city">
           <h2 class="icon">Studio</h2>
           <ul class="clearfix photograph-list">
-            <li><img src="images/po1.jpg" alt=""></li>
-            <li><img src="images/po2.png" alt=""></li>
-            <li><img src="images/po3.jpg" alt=""></li>
-            <li><img src="images/po4.jpg" alt=""></li>
-            <li><img src="images/ps1.jpg" alt=""></li>
-            <li><img src="images/ps2.jpg" alt=""></li>
-            <li><img src="images/ps3.jpg" alt=""></li>
-            <li><img src="images/ps4.jpg" alt=""></li>
-            <li><img src="images/ps5.jpg" alt=""></li>
-            <li><img src="images/ps6.jpg" alt=""></li>
+            <li><a href="images/po1-1200x700.jpg" data-lightbox="detail" data-title=""><img src="images/po1.jpg" alt="po1"></a></li>
+            <li><a href="images/po2-700x1200.jpg" data-lightbox="detail" data-title=""><img src="images/po2.png" alt="po2"></a></li>
+            <li><a href="images/po3-1200x700.jpg" data-lightbox="detail" data-title=""><img src="images/po3.jpg" alt="po3"></a></li>
+            <li><a href="images/po4-1200x700.jpg" data-lightbox="detail" data-title=""><img src="images/po4.jpg" alt="po4"></a></li>
+            <li><a href="images/po5-1200x700.jpg" data-lightbox="detail" data-title=""><img src="images/po5.jpg" alt="po5"></a></li>
+            <li><a href="images/po6-700x1200.jpg" data-lightbox="detail" data-title=""><img src="images/po6.png" alt="po6"></a></li>
+            <li><a href="images/ps1-1200x700.jpg" data-lightbox="detail" data-title=""><img src="images/ps1.jpg" alt="ps1"></a></li>
+            <li><a href="images/ps2-1200x700.jpg" data-lightbox="detail" data-title=""><img src="images/ps2.jpg" alt="ps2"></a></li>
+            <li><a href="images/ps3-1200x700.jpg" data-lightbox="detail" data-title=""><img src="images/ps3.jpg" alt="ps3"></a></li>
+            <li><a href="images/ps4-1200x700.jpg" data-lightbox="detail" data-title=""><img src="images/ps4.jpg" alt="ps4"></a></li>
+            <li><a href="images/ps5-1200x700.jpg" data-lightbox="detail" data-title=""><img src="images/ps5.jpg" alt="ps5"></a></li>
+            <li><a href="images/ps6-1200x700.jpg" data-lightbox="detail" data-title=""><img src="images/ps6.jpg" alt="ps6"></a></li>
           </ul>
         </section>
         <section id="beach">
           <h2 class="icon">Location</h2>
           <ul class="clearfix photograph-list">
-            <li><img src="images/pl1.jpg" alt=""></li>
-            <li><img src="images/pl2.jpg" alt=""></li>
-            <li><img src="images/pl3.jpg" alt=""></li>
-            <li><img src="images/pl4.png" alt=""></li>
-            <li><img src="images/pl5.jpg" alt=""></li>
-            <li><img src="images/pl6.jpg" alt=""></li>
+            <li><a href="images/pl1-1200x700.jpg" data-lightbox="detail2" data-title=""><img src="images/pl1.jpg" alt="pl1"></a></li>
+            <li><a href="images/pl2-1200x700.jpg" data-lightbox="detail2" data-title=""><img src="images/pl2.jpg" alt="pl2"></a></li>
+            <li><a href="images/pl3-1200x700.jpg" data-lightbox="detail2" data-title=""><img src="images/pl3.jpg" alt="pl3"></a></li>
+            <li><a href="images/pl4-700x1200.jpg" data-lightbox="detail2" data-title=""><img src="images/pl4.png" alt="pl4"></a></li>
+            <li><a href="images/pl5-1200x700.jpg" data-lightbox="detail2" data-title=""><img src="images/pl5.jpg" alt="pl5"></a></li>
+            <li><a href="images/pl6-1200x700.jpg" data-lightbox="detail2" data-title=""><img src="images/pl6.jpg" alt="pl6"></a></li>
           </ul>
         </section>
         <!-- <section id="forest"> -->
@@ -136,6 +141,6 @@
     <small>&copy; 2022 takami.com All Rights Reserved</small>
   </footer>
   <!-- footer終わり -->
-  
+  <script src="lightbox.js"></script>
 </body>
 </html>
