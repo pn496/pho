@@ -12,7 +12,13 @@ body {
   background-color: #cccccc;
 }
 
-p,h1,h2,h3,h4,h5,h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
 }
 
@@ -36,6 +42,13 @@ h2 {
   font-size: 24px;
 }
 
+h4 {
+  font-family: 'Bitter', serif;
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0 11%;
+}
+
 table {
   border-spacing: 0;
   border-collapse: collapse;
@@ -47,7 +60,7 @@ a {
 }
 
 a:visited {
-  color: #788d98;
+  color: #3583aa;
 }
 
 a:hover {
@@ -63,15 +76,15 @@ a:hover {
   margin-top: 20px;
   text-align: center;
   color: #000;
-  border: 3px solid rgb(251,206,131,.3);
+  border: 3px solid rgb(251, 206, 131, .3);
   border-radius: 5px;
-  background-color: rgb(253,239,210,.3);
+  background-color: rgb(253, 239, 210, .3);
 }
 
 .btn a:hover {
   text-decoration: none;
   color: #000;
-  background-color: rgb(251,225,229,1);
+  background-color: rgb(251, 225, 229, 1);
 }
 
 a img:hover {
@@ -189,6 +202,7 @@ footer small {
 .sp_only {
   display: none;
 }
+
 /* index.htmlへの指定
 ----------------------------------------*/
 
@@ -199,6 +213,7 @@ footer small {
   background-position: center center;
   background-size: cover;
 }
+
 #index #wrap {
   margin-top: 0;
   padding: 0;
@@ -271,8 +286,16 @@ footer small {
 #about .profile-clearfix {
   float: left;
 }
+
 #about .main {
   width: auto;
+}
+
+/* newsへの指定
+----------------------------------------*/
+
+.update {
+  color: #ffffff;
 }
 
 /* portfolio.htmlへの指定
@@ -398,15 +421,15 @@ footer small {
   margin-left: 165px;
   text-align: center;
   color: #000;
-  border: 3px solid rgb(251,206,131,1);
+  border: 3px solid rgb(251, 206, 131, 1);
   border-radius: 5px;
-  background-color: rgb(253,239,210,1);
+  background-color: rgb(253, 239, 210, 1);
 }
 
 #contact .form button:hover {
   cursor: pointer;
   color: #000;
-  background-color: rgb(251,225,229,1);
+  background-color: rgb(251, 225, 229, 1);
 }
 
 #contact .form .required:after {
@@ -417,6 +440,7 @@ footer small {
 #contact .form .attention {
   margin: 20px 0 0 165px;
 }
+
 /* -----------------------------------
 SNSリンク
 ----------------------------------- */
@@ -425,13 +449,16 @@ ul.sns {
   display: -webkit-box;
   display: flex;
 }
+
 ul.sns li {
   margin: 0;
 }
+
 ul.sns li a {
   display: block;
   margin-right: 15px;
 }
+
 ul.sns li a img {
   width: 30px;
   height: 30px;
@@ -443,9 +470,10 @@ ul.sns li a img {
 @media screen and (max-width:1000px) {
   /* 画面サイズが1000px以下の場合に適用 */
 
-.pc_only {
-  display: none;
-}
+  .pc_only {
+    display: none;
+  }
+
   body {
     font-size: 3.5vw;
   }
@@ -520,78 +548,99 @@ ul.sns li a img {
     float: none;
     width: auto;
   }
+
   #about .profile-image {
     float: none;
     max-width: 100%;
     margin-bottom: 2rem;
   }
+
   #about .career td,
   #about .career th {
     display: block;
     width: 100%;
     padding: 0;
   }
+
   #about .side {
     float: none;
   }
+
   .main-center {
     width: 100%;
   }
+
   .sp_only {
     display: block;
   }
+
   .carrer table {
     width: 100%;
   }
+
   table {
     width: -webkit-fill-available;
   }
-  #about section,#contact section {
-  margin: 2rem 0 0;
+
+  #about section,
+  #contact section {
+    margin: 2rem 0 0;
   }
+
   #contact .content {
     width: auto;
     margin: 0 5%;
   }
+
   #contact .access table {
     margin: 1rem;
   }
+
   #contact .access iframe {
     float: none;
     width: fit-content;
   }
+
   #index h1 {
     font-size: 1.3rem;
     line-height: 1;
     margin-bottom: 5px;
     text-align: center;
   }
+
   #index p {
     font-size: 14px;
     text-align: center;
   }
+
   #index .content {
     margin-top: 3rem;
   }
+
   #index {
     background-image: url(images/bg-index-sp.jpg);
     background-attachment: inherit;
   }
+
   .btn a {
     margin-left: auto;
     margin-right: auto;
   }
+
   #index footer {
     text-align: center;
     width: auto;
   }
+
   #wrap .btn {
     margin-top: 10rem;
   }
+
   footer {
     padding: 0;
   }
+
   #index footer {
     margin: 130px auto 0 auto;
-}
+  }
 }
