@@ -291,6 +291,10 @@ footer small {
   width: auto;
 }
 
+.career img {
+  width: 49%;
+}
+
 /* newsへの指定
 ----------------------------------------*/
 
@@ -577,6 +581,10 @@ ul.sns li a img {
 
   .carrer table {
     width: 100%;
+  }
+
+  .career img {
+    width: 96%;
   }
 
   table {
